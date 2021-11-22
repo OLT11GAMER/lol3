@@ -1,0 +1,22 @@
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    max-width: 200px;
+    background-color: #ffffff;
+    height: 100%;
+    overflow: auto;
+    grid-area: sidebar;
+    color: rgb(0, 0, 0);
+    border-right: 1px solid rgb(222, 222, 222);
+}
+.sidebar a {
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #3a3a3a;
+    display: block;
+}
+.sidebar a:hover {
+    color: #f1f1f1;
+  }

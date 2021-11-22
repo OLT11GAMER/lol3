@@ -1,0 +1,81 @@
+$img-back-color: #eaeeef;
+
+.product-sales{
+    grid-area: sales;
+    display: grid;
+    grid-template-areas: "h1 h1 v1 v2"
+    "h2 h2 v1 v2";
+    grid-gap: 15px;
+}
+.product-sales div{
+    border-radius: 1em;
+}
+.horizontal-1{
+    display: grid;
+    grid-area: h1;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    align-items: baseline;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    background-color: $img-back-color;
+}
+
+.horizontal-2{
+    grid-area: h2;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    align-items: baseline;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+    background-color: $img-back-color;
+}
+
+.vertical-1{
+    display: grid;
+    grid-area: v1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+    display: grid;
+    grid-area: v1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: baseline;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+    background-color: $img-back-color;
+}
+
+
+.vertical-2{
+    display: grid;
+    grid-area: v2;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: grid;
+    grid-area: v2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: baseline;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    justify-items: center;
+    background-color: $img-back-color;
+}
